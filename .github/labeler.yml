@@ -1,0 +1,5 @@
+workflows:
+  - .github/workflows/*.yml
+
+dependencies:
+  - yarn.lock
