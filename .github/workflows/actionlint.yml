@@ -1,0 +1,22 @@
+# Actionlint - GH ActionsのWorkflow設定ファイルのリンターに当たる。
+
+name: action lint
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/**.yml'
+
+jobs:
+  lint:
+    name: actionlint with reviewdog
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: actionlint
+        uses: reviewdog/action-actionlint@v1.24.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
