@@ -1,0 +1,21 @@
+# labelsync - ラベルを同期させる
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/labels.yml'
+
+jobs:
+  label-sync:
+    name: auto label sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: Run Label Sync
+        uses: crazy-max/ghaction-github-labeler@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
