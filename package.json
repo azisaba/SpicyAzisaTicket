@@ -1,0 +1,14 @@
+{
+  "name": "spicyazisaticket",
+  "version": "0.0.1",
+  "description": "Content Support Bot",
+  "main": "index.js",
+  "repository": "git@github.com:azisaba/SpicyAzisaTicket.git",
+  "author": "meru <me@merunno.dev>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1"
+  }
+}
