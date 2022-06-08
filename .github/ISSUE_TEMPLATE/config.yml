@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discord
+    url: https://support.discord.com/hc/ja/requests/new?ticket_form_id=360006586013
+    about: Discordの不具合はここに通報せず、Discord ヘルプセンターから通報してください。
+  - name: アジ鯖の不具合
+    url: https://discord.gg/azisaba
+    about: アジ鯖の不具合は公式Discordにお願いします。
+  - name: AfnwCore2の不具合
+    url: https://github.com/AfnwTeam/AfnwCore2/issues/new
+    about: AfnwCore2の不具合はAfnwCore2のリポジトリに報告してください。間違ってもここに報告するな
