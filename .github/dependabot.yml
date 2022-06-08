@@ -13,7 +13,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "chore(GitHub Actions): "
+      prefix: "chore(ci): "
     reviewers:
       - "Meru92"
     target-branch: master
