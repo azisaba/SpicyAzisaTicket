@@ -9,7 +9,7 @@ assignees: Meru92
 
 <!-- バグの報告を行う前に: 
 ・悪用可能な不具合 (例: チケットを何個も作ることが出来る) などはここに報告せず、直接めるに報告してください。
-・CVEdetails.com や GitHub Advisory Database などで入手したSpicyAzisaTIcketに関する脆弱性をIssueで報告するのは攻撃者に攻撃してくださいと言っているようなものです。Dependabot security updates という機能で通知が来ますので不要です。
+・CVEdetails.com や GitHub Advisory Database などで入手したSpicyAzisaTicketに関する脆弱性をIssueで報告するのは攻撃者に攻撃してくださいと言っているようなものです。Dependabot security updates という機能で通知が来ますので不要です。
 ・各項目は詳しく記載してください。情報が不足しているとその分修正に時間がかかります。
 -->
 
