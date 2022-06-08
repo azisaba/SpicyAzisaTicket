@@ -36,3 +36,10 @@ This is endpoint use register application command(guild command):
 ``` 
 https://discord.com/api/v10/applications/{YOUR APP ID}/guilds/{A GUILD ID}/commands
 ```
+
+## 🔔 Features
+
+- Ticket make and backup, close
+- Send mention to server admin (so called "urging", lol)
+
+This is schedule. Subject to change without notice.
