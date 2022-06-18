@@ -23,7 +23,7 @@ docker build ./ -t spicy-azisa-ticket
 docker run --env-file ./.env spicy-azisa-ticket
 ```
 
-### 📡 Register Commands
+### 📡 Command Registration
 
 SpicyAzisaTicket is need Application Command
 
