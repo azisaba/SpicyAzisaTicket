@@ -37,6 +37,8 @@ This is endpoint use register application command(guild command):
 https://discord.com/api/v10/applications/{YOUR APP ID}/guilds/{A GUILD ID}/commands
 ```
 
+(* `{YOUR APP ID}` is the same as the Bot's user ID.)
+
 ## 🔔 Features
 
 - Ticket make and backup, close
