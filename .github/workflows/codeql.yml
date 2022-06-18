@@ -1,4 +1,4 @@
-name: run codeql analysis
+name: codeql analysis
 
 on:
   push:
