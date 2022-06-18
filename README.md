@@ -23,11 +23,11 @@ docker build ./ -t spicy-azisa-ticket
 docker run --env-file ./.env spicy-azisa-ticket
 ```
 
-### 📡 Register Commands
+### 📡 Command Registration
 
 SpicyAzisaTicket is need Application Command
 
-Client user(bot) invite by `application.commands`, `bot` scoop invite link
+Introduce the bot with `application.commands`, an invitation link with the `bot` scope added.
 
 After that, registration is completed by sending `data/application-command.json` as an HTTP request to the following endpoint
 
@@ -36,6 +36,8 @@ This is endpoint use register application command(guild command):
 ``` 
 https://discord.com/api/v10/applications/{YOUR APP ID}/guilds/{A GUILD ID}/commands
 ```
+
+(* `{YOUR APP ID}` is the same as the Bot's user ID.)
 
 ## 🔔 Features
 
