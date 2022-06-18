@@ -27,7 +27,7 @@ docker run --env-file ./.env spicy-azisa-ticket
 
 SpicyAzisaTicket is need Application Command
 
-Client user(bot) invite by `application.commands`, `bot` scoop invite link
+Introduce the bot with `application.commands`, an invitation link with the `bot` scope added.
 
 After that, registration is completed by sending `data/application-command.json` as an HTTP request to the following endpoint
 
