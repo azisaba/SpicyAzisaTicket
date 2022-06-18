@@ -7,7 +7,7 @@ updates:
     commit-message:
       prefix: "chore(npm): "
     reviewers:
-      - "Meru92"
+      - "m2en"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -15,5 +15,5 @@ updates:
     commit-message:
       prefix: "chore(ci): "
     reviewers:
-      - "Meru92"
+      - "m2en"
     target-branch: master
