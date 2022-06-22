@@ -39,6 +39,8 @@ https://discord.com/api/v10/applications/{YOUR APP ID}/guilds/{A GUILD ID}/comma
 
 (* `{YOUR APP ID}` is the same as the Bot's user ID.)
 
+Not sure how to register a command? See a [SpicyAzisaTicket Docs]() //todo: link to
+
 ## 🔔 Features
 
 - Ticket make and backup, close

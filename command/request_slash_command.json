@@ -1,0 +1,55 @@
+{
+  "name": "request",
+  "description": "Request command",
+  "options": [
+    {
+      "name": "send",
+      "description": "指定したサーバーの運営へ対応依頼を送信します",
+      "type": 1,
+      "options": [
+        {
+          "name": "target-server",
+          "description": "対応サーバーを選択します。(注意: チケットとは無関係のサーバーを選択すると関係ない運営全員にメンションが飛びます。)",
+          "type": 3,
+          "required": true,
+          "choices": [
+            {
+              "name": "Life",
+              "value": "life"
+            },
+            {
+              "name": "LGW",
+              "value": "lgw"
+            },
+            {
+              "name": "Diverse",
+              "value": "diverse"
+            },
+            {
+              "name": "Despawn",
+              "value": "despawn"
+            },
+            {
+              "name": "Afnw",
+              "value": "afnw"
+            },
+            {
+              "name": "JunkGames",
+              "value": "jg"
+            },
+            {
+              "name": "Vanilife",
+              "value": "v-life"
+            }
+          ]
+        },
+        {
+          "name": "target-channel",
+          "description": "追加するチケットを指定します",
+          "type": 7,
+          "required": true
+        }
+      ]
+    }
+  ]
+}
