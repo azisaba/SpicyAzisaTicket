@@ -1,0 +1,81 @@
+{
+  "name": "ticket",
+  "description": "Ticket command",
+  "options": [
+    {
+      "name": "create",
+      "description": "チケットを作成します",
+      "type": 1
+    },
+    {
+      "name": "delete",
+      "description": "指定したチケットを削除します",
+      "type": 1,
+      "options": [
+        {
+          "name": "target",
+          "description": "削除するチケットを指定します",
+          "type": 7,
+          "required": true
+        },
+        {
+          "name": "reason",
+          "description": "削除する理由を指定します",
+          "type": 3,
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "backup",
+      "description": "指定したチケットのバックアップを作成します",
+      "type": 1,
+      "options": [
+        {
+          "name": "target",
+          "description": "削除するチケットを指定します",
+          "type": 7,
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "add",
+      "description": "指定したチケットにメンバーを追加します",
+      "type": 1,
+      "options": [
+        {
+          "name": "target-channel",
+          "description": "追加するチケットを指定します",
+          "type": 7,
+          "required": true
+        },
+        {
+          "name": "target-user",
+          "description": "追加するメンバーを指定します",
+          "type": 6,
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "remove",
+      "description": "指定したチケットからメンバーを削除します。",
+      "type": 1,
+      "options": [
+        {
+          "name": "target-channel",
+          "description": "削除するチケットを指定します",
+          "type": 7,
+          "required": true
+        },
+        {
+          "name": "target-user",
+          "description": "削除するメンバーを指定します",
+          "type": 6,
+          "required": true
+        }
+      ]
+    }
+  ]
+}

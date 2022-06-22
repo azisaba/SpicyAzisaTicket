@@ -1,0 +1,26 @@
+{
+  "name": "info",
+  "description": "Information command",
+  "options": [
+    {
+      "name": "help",
+      "description": "ヘルプを表示します",
+      "type": 1
+    },
+    {
+      "name": "ping",
+      "description": "ping値を表示します",
+      "type": 1
+    },
+    {
+      "name": "link",
+      "description": "リンクを表示します",
+      "type": 1
+    },
+    {
+      "name": "docs",
+      "description": "ドキュメントを表示します",
+      "type": 1
+    }
+  ],
+}

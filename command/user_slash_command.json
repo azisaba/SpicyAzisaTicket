@@ -1,0 +1,19 @@
+{
+  "name": "user",
+  "description": "User command",
+  "options": [
+    {
+      "name": "history",
+      "description": "指定したユーザーのチケット履歴を参照します",
+      "type": 1,
+      "options": [
+        {
+          "name": "target",
+          "description": "ユーザーを指定します",
+          "type": 6,
+          "required": true
+        }
+      ]
+    }
+  ]
+}
